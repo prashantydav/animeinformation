@@ -6,7 +6,7 @@ import openpyxl
 
 # this class defines methods for scrapping of data 
 class AnimeManga:
-    # this method will scrape the list of all genre with their links
+    # this method will scrap the list of all genre with their links
     def get_genre():
         lname = []
         link = []
@@ -37,7 +37,7 @@ class AnimeManga:
             ptr += 1
     
 
-    # this method will take link of first page and and scrape imformation of all the anime from all pages 
+    # this method will take link of first page and and scrap imformation of all the anime from all pages 
     def get_all_list(pagelink):
         mylist = []
         slist = []
