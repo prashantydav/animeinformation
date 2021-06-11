@@ -4,7 +4,7 @@ import requests
 import openpyxl
 
 
-# this class defines method for scrapping of data 
+# this class defines methods for scrapping of data 
 class AnimeManga:
     # this method will scrape the list of all genre with their links
     def get_genre():
